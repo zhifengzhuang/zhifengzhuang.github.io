@@ -553,7 +553,8 @@ input[type="submit"]:hover {
     width: 100%;
     height: 100%;
     display: none;
-    background: url("https://img-test.pddpic.com/img-test/xxxxxxxxxxxxx/1b61414a-0fc7-4623-9c71-850ac2c421cf.png.slim.png");
+    background: url("https://funimg.pddpic.com/upload_pinduoduo/36de928c-f7ab-4bdf-aea9-0246395b7a94.png.slim.png");
+    background-size: 100%, 100%;
 }
 
 .letter_container {
