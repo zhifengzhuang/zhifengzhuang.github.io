@@ -6,9 +6,8 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=0.6, maximum-scale=1, minimum-scale=0.6, user-scalable=0">
     <meta name="description" content="Wear your earphone">
-    <title>魏敏燕</title>
+    <title>❤️魏敏燕</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="stylesheets/style.css"/>
     <link rel="stylesheet" href="stylesheets/odometer.css"/>
     <link rel="stylesheet" href="stylesheets/theme-train-station.css"/>
@@ -19,10 +18,10 @@
     <script src="js/modernizr.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/typed.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/odometer.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/odometer.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
+<div><img src="https://funimg.pddpic.com/qh-fun/1000x1.jpeg.slim.jpeg" style="width: 100%"/></div>
 <div class="common_title">我们认识已经</div>
 <div class="anniversary">
     <span class="odometer" id="days"></span>
@@ -34,6 +33,8 @@
     <span class="odometer" id="seconds"></span>
     <span>秒</span>
 </div>
+<div><img src="https://funimg.pddpic.com/qh-fun/1000x2.jpeg.slim.jpeg" style="width: 100%"/></div>
+
 
 <div class="common_title">我们的聊天</div>
 <div style="text-align:center;width:100%;">
@@ -41,9 +42,10 @@
          style="margin: 0 auto">
 </div>
 
+<div><img src="https://funimg.pddpic.com/qh-fun/1000x3.jpeg.slim.jpeg" style="width: 100%"/></div>
+
+<div class="common_title">我们的经历</div>
 <section id=timeline>
-    <h1>我们的经历</h1>
-    <p class="leader">一起渡过的点点滴滴</p>
     <div class="demo-card-wrapper">
         <div class="demo-card demo-card--step1">
             <div class="head">
@@ -54,7 +56,8 @@
             </div>
             <div class="body">
                 <p>2023年6月22号20点20分，我们加上了彼此的微信</p>
-                <img src="https://img-test.pddpic.com/qh-test/weiminyan/02784130-57e7-4e29-8208-3adeb5bbc800.jpg?imageMogr2/thumbnail/1000x600!" alt="Graphic">
+                <img src="https://img-test.pddpic.com/qh-test/weiminyan/02784130-57e7-4e29-8208-3adeb5bbc800.jpg?imageMogr2/thumbnail/1000x600!"
+                     alt="Graphic">
             </div>
         </div>
 
@@ -67,7 +70,8 @@
             </div>
             <div class="body">
                 <p>英歌魂</p>
-                <img src="https://img-test.pddpic.com/qh-test/weiminyan/1289bde6-2a80-4c51-a042-5924b1ccb46d.jpg?imageMogr2/thumbnail/1000x600!" alt="Graphic">
+                <img src="https://img-test.pddpic.com/qh-test/weiminyan/1289bde6-2a80-4c51-a042-5924b1ccb46d.jpg?imageMogr2/thumbnail/1000x600!"
+                     alt="Graphic">
             </div>
         </div>
 
@@ -80,7 +84,8 @@
             </div>
             <div class="body">
                 <p>大峰祖师公</p>
-                <img src="https://img-test.pddpic.com/qh-test/weiminyan/5ec9f172-fc7d-4db8-9885-b4ccf043f1c3.jpg?imageMogr2/thumbnail/1000x600!" alt="Graphic">
+                <img src="https://img-test.pddpic.com/qh-test/weiminyan/5ec9f172-fc7d-4db8-9885-b4ccf043f1c3.jpg?imageMogr2/thumbnail/1000x600!"
+                     alt="Graphic">
             </div>
         </div>
 
@@ -93,7 +98,8 @@
             </div>
             <div class="body">
                 <p>酸菜鱼</p>
-                <img src="https://img-test.pddpic.com/qh-test/weiminyan/be933b9f-6e9e-4960-aa65-a77061f75e05.jpg?imageMogr2/thumbnail/1000x600!" alt="Graphic">
+                <img src="https://img-test.pddpic.com/qh-test/weiminyan/be933b9f-6e9e-4960-aa65-a77061f75e05.jpg?imageMogr2/thumbnail/1000x600!"
+                     alt="Graphic">
             </div>
         </div>
 
@@ -160,6 +166,33 @@
         </form>
     </section>
 </div>
+
+<div style="display: none">
+    <audio controls loop src="https://pfile.pddpic.com/galerie-go/qh/8cfc87b3-8690-47f6-b233-b08d10c2b0f1.mp3" id="audio"
+           autoplay preload="auto"></audio>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        function audioAutoPlay() {
+            let audio = document.getElementById("audio");
+            audio.play();
+            document.addEventListener('WeixinJSBridgeReady', function () {
+                audio.play();
+            }, false);
+        }
+
+        audioAutoPlay();
+    })
+    document.addEventListener('touchstart', function () {
+        function audioAutoPlay() {
+            let audio = document.getElementById('audio');
+            audio.play();
+        }
+
+        audioAutoPlay();
+    });
+</script>
 
 <script src="js/letter.js" type="text/javascript" charset="utf-8"></script>
 </body>
