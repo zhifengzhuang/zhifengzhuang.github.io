@@ -1,12 +1,167 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>魏敏燕</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=0.6, maximum-scale=1, minimum-scale=0.6, user-scalable=0">
+    <meta name="description" content="Wear your earphone">
+    <title>魏敏燕</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <link rel="stylesheet" href="stylesheets/odometer.css"/>
+    <link rel="stylesheet" href="stylesheets/theme-train-station.css"/>
+    <link rel="stylesheet" href="stylesheets/time-style.css"/>
+    <link rel="stylesheet" href="stylesheets/time-style.scss"/>
+
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/modernizr.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/typed.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/odometer.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/odometer.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
-<h1>weiminyan.space</h1>
-</a>
+<div class="common_title">我们认识已经</div>
+<div class="anniversary">
+    <span class="odometer" id="days"></span>
+    <span>天</span>
+    <span class="odometer" id="hours"></span>
+    <span>时</span>
+    <span class="odometer" id="minutes"></span>
+    <span>分</span>
+    <span class="odometer" id="seconds"></span>
+    <span>秒</span>
+</div>
+
+<div class="common_title">我们的聊天</div>
+<div style="text-align:center;width:100%;">
+    <img src="https://img-test.pddpic.com/qh-test/weiminyan/def0c556-b353-40df-b976-bb91ff037413.png"
+         style="margin: 0 auto">
+</div>
+
+<section id=timeline>
+    <h1>我们的经历</h1>
+    <p class="leader">一起渡过的点点滴滴</p>
+    <div class="demo-card-wrapper">
+        <div class="demo-card demo-card--step1">
+            <div class="head">
+                <div class="number-box">
+                    <span>22号</span>
+                </div>
+                <h2><span class="small">2023年</span> 6月</h2>
+            </div>
+            <div class="body">
+                <p>2023年6月22号20点20分，我们加上了彼此的微信</p>
+                <img src="https://img-test.pddpic.com/qh-test/weiminyan/02784130-57e7-4e29-8208-3adeb5bbc800.jpg?imageMogr2/thumbnail/1000x600!" alt="Graphic">
+            </div>
+        </div>
+
+        <div class="demo-card demo-card--step2">
+            <div class="head">
+                <div class="number-box">
+                    <span>23号</span>
+                </div>
+                <h2><span class="small">2023年</span> 6月</h2>
+            </div>
+            <div class="body">
+                <p>英歌魂</p>
+                <img src="https://img-test.pddpic.com/qh-test/weiminyan/1289bde6-2a80-4c51-a042-5924b1ccb46d.jpg?imageMogr2/thumbnail/1000x600!" alt="Graphic">
+            </div>
+        </div>
+
+        <div class="demo-card demo-card--step2">
+            <div class="head">
+                <div class="number-box">
+                    <span>23号</span>
+                </div>
+                <h2><span class="small">2023年</span> 6月</h2>
+            </div>
+            <div class="body">
+                <p>大峰祖师公</p>
+                <img src="https://img-test.pddpic.com/qh-test/weiminyan/5ec9f172-fc7d-4db8-9885-b4ccf043f1c3.jpg?imageMogr2/thumbnail/1000x600!" alt="Graphic">
+            </div>
+        </div>
+
+        <div class="demo-card demo-card--step2">
+            <div class="head">
+                <div class="number-box">
+                    <span>23号</span>
+                </div>
+                <h2><span class="small">2023年</span> 6月</h2>
+            </div>
+            <div class="body">
+                <p>酸菜鱼</p>
+                <img src="https://img-test.pddpic.com/qh-test/weiminyan/be933b9f-6e9e-4960-aa65-a77061f75e05.jpg?imageMogr2/thumbnail/1000x600!" alt="Graphic">
+            </div>
+        </div>
+
+        <div class="demo-card demo-card--step5">
+            <div class="head">
+                <div class="number-box">
+                    <span>23号</span>
+                </div>
+                <h2><span class="small">2023年</span> 6月</h2>
+            </div>
+            <div class="body">
+                <p>待办事件</p>
+                <button class="button button1" onclick="show_letter()">今日有封信件待查收</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    function close_letter() {
+        document.getElementById("letter_bg").style.display = "none";
+        document.getElementById("letter_container").style.display = "none";
+    }
+
+    function show_letter() {
+        document.getElementById("letter_bg").style.display = "inline";
+        document.getElementById("letter_container").style.display = "inline";
+    }
+</script>
+
+<div class="letter_bg" id="letter_bg"></div>
+<div class="letter_container" id="letter_container">
+    <section class="container" id="contact">
+        <form class="flip">
+            <div class="front">
+                <h2>To&nbsp;&nbsp;Wei</h2>
+                <a id="flip2back" href="#">查看背面</a>
+            </div>
+            <div id="content" class="back">
+                <div id="letter">
+                    <div class="container">
+                        <div class="flip">
+                            <div class="front"></div>
+                            <div class="back">
+                                <p class="letter"></p>
+                                <a id="close" href="#" onclick="close_letter()">关闭信封</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="top">
+                    <a id="flip" href="#contact">查看正面</a>
+                </div>
+                <div id="lid" class="container">
+                    <div class="flip">
+                        <div class="front">
+                            <a id="open" href="#content"><span></span></a>
+                        </div>
+                        <div class="back"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</div>
+
+<script src="js/letter.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
+

@@ -1,0 +1,44 @@
+@media screen and (min-width: 320px) {
+    .odometer {
+        font-size: 40px;
+    }
+
+    .anniversary {
+        margin: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .odometer {
+        font-size: 60px;
+    }
+
+    .anniversary {
+        margin: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .odometer {
+        font-size: 100px;
+    }
+
+    .anniversary {
+        margin: 50px;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+.common_title {
+    margin: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: #CCCC99;
+}
+
+.anniversary {
+    color: #663366;
+}

@@ -1,0 +1,3 @@
+window.odometerOptions = {
+    format: 'd'
+};
