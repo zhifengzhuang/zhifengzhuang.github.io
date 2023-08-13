@@ -219,26 +219,26 @@
   border-color: #FF99CC;
 }
 #timeline .demo-card--step2 {
-  background-color: #66CCCC;
+  background-color: #FF6666;
 }
 #timeline .demo-card--step2 .head::after {
-  border-color: #66CCCC;
+  border-color: #FF6666;
 }
 #timeline .demo-card--step3 {
-  background-color: #ce43eb;
+  background-color: #FFCC99;
 }
 #timeline .demo-card--step3 .head::after {
-  border-color: #ce43eb;
+  border-color: #FFCC99;
 }
 #timeline .demo-card--step4 {
-  background-color: #4d92eb;
+  background-color: #663366;
 }
 #timeline .demo-card--step4 .head::after {
-  border-color: #4d92eb;
+  border-color: #663366;
 }
 #timeline .demo-card--step5 {
-  background-color: #46b8e9;
+  background-color: #FF99CC;
 }
 #timeline .demo-card--step5 .head::after {
-  border-color: #46b8e9;
+  border-color: #FF99CC;
 }

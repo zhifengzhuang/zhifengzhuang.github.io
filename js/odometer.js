@@ -1,3 +1,0 @@
-window.odometerOptions = {
-    format: 'd'
-};
