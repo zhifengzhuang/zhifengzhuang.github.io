@@ -242,3 +242,9 @@
 #timeline .demo-card--step5 .head::after {
   border-color: #FF99CC;
 }
+#timeline .demo-card--step6 {
+  background-color: #FF33CC;
+}
+#timeline .demo-card--step6 .head::after {
+  border-color: #FF33CC;
+}
