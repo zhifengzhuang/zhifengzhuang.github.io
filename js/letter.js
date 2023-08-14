@@ -4,9 +4,9 @@ $("#open").click(function () {
 
     if (!aparted) {
         var typed = new Typed('.letter', {
-            strings: ["^1000Dear&nbsp;&nbsp;Yan",
-                "M^200ing<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夜には^300いつも^200寒いよね、^600でも、^600手を^200繋いでいると、^600暖か^200くなるよ！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;どんなに^300寒い夜も、^600君と^300二人でいれば、^600ちっとも^300寒くない！<br><br><p style='float:right; display:block; width:80px;'>^1000F^200eng</p>"],
-            typeSpeed: 100,
+            strings: ["^1000Wei&nbsp;&nbsp;MinYan",
+                "魏^200敏燕<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;哈喽呀，不知不觉我们已经认识两个月了，突然就这样有一个人走进了我的生活，或许这就是缘分吧，从第一次见你的时候我就觉得我遇到了一个不一样的女孩，你带给我了欢乐，懂我内心很多想法，未来还有好多好多地方和美食希望和你一起去体验，想跟你说，我喜欢你<br><br><p style='float:right; display:block; width:80px;'>^1000庄^200增锋</p>"],
+            typeSpeed: 300,
             backSpeed: 50
         });
 
