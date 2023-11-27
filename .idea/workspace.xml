@@ -29,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -62,6 +63,8 @@
       <updated>1691909775178</updated>
       <workItem from="1691909776350" duration="3559000" />
       <workItem from="1696335425609" duration="1735000" />
+      <workItem from="1701090707651" duration="2089000" />
+      <workItem from="1701093228809" duration="298000" />
     </task>
     <servers />
   </component>
